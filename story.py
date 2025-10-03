@@ -1,0 +1,6 @@
+print("Let's write a story! ")
+adjective = input("what is who:")
+noun = input("who is noun: ")
+verb_past_tense = input("Enter a verb (past tense):")
+print("\nHere is your story:")
+print("The" + adjective + " " + noun + " " + verb_past_tense + " over the lazy dog." )
