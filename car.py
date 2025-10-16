@@ -30,3 +30,14 @@ print(f'Monthly savings needed to reach goal : {need}')
 print(f'Total projected amount after target months: {amount}')
 print(f"Additional monthly savings needed: {negative} ")
 
+if expense >= income:
+    print("Your expenses are higher than your income")
+if saving < 20:
+    print("You have to save more")
+if percent >= 20 and percent < 30:
+    print("You are saving enough money")
+if percent >= 30:
+    print("You are saving more than needed")
+if amount >= need :
+    print("You have to work hard")
+
